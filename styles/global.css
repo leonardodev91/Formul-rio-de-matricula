@@ -20,6 +20,8 @@
     --stroke-default: #D6D3D1;
     --stroke-highlight: #F3541C;
 
+    
+
 }
 
 body {
@@ -31,4 +33,9 @@ body {
 
 h1, h2 {
     color: var(--text-primary);
+}
+
+img {
+    max-width: 100%;
+    width: auto;
 }
