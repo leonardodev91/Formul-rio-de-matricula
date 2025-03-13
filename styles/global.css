@@ -9,7 +9,7 @@
     --text: 400 1rem/1.5 var(--font-family);
     --text-sm: 400 0.875rem/1.4 var(--font-family);
 
-    --text-prymary: #292524;
+    --text-primary: #0a0a09;
     --text-secondary: #57534E;
     --text-tertinary: #8F8881;
     --text-highlight: #E43A12;
@@ -24,4 +24,11 @@
 
 body {
     overflow: hidden;
+
+    font: var(--text);
+    color: var(--text-secondary);
+}
+
+h1, h2 {
+    color: var(--text-primary);
 }
